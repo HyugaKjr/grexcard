@@ -1,48 +1,67 @@
-# 🎴 GREXCARD
+# 🃏 GREXCARD
 
-**Versi:** 0.1  
-**Status:** Prototype Awal (CLI)  
-**Genre:** Kartu / Strategi  
-**Dibuat dengan:** Python  
-**Coding Vibe:** 100% AI-Enhanced Development ✨  
+**GREXCARD** adalah proyek permainan kartu berbasis *poker-like logic* yang dikembangkan sepenuhnya menggunakan pendekatan **AI-assisted coding vibe**.  
+Game ini dimulai sebagai *text-based CLI prototype*, dan akan berkembang menjadi game kartu strategi dengan sistem kombinasi, efek kartu, serta mekanik unik di masa depan.
 
 ---
 
-## 🧠 Tentang GREXCARD
-GREXCARD adalah **game kartu berbasis teks (CLI)** yang terinspirasi dari genre poker strategis seperti *Balatro*, namun dikembangkan dengan konsep yang lebih sederhana dan fokus pada strategi serta kombinasi kartu.  
-Tujuan proyek ini adalah untuk membangun fondasi game roguelike berbasis kartu menggunakan Python — dimulai dari versi *text-based prototype*, sebelum berlanjut ke versi grafis di masa depan.
+## 🎮 Versi Saat Ini: `v0.2` — Playable Foundation
+
+Versi ini menandai **rangka awal permainan** GREXCARD:
+- Pemain sudah bisa **memulai permainan dari CLI**
+- **Deck system** sudah berfungsi penuh (shuffle & draw)
+- **Main menu** tersedia untuk interaksi pemain
+- Struktur kode sudah modular di dalam folder `src/`
 
 ---
 
-## 🚀 Fitur (Versi 0.1)
-- 🎮 Antarmuka berbasis teks (CLI)  
-- ♠️ Sistem kartu dasar (draw, discard, deck)  
-- 🃏 Mode permainan dasar  
-- 💾 Struktur program modular dan mudah dikembangkan  
+## 🧱 Struktur Proyek
+grexcard/
+│
+├── src/
+│ └── grexcard.py # Script utama game
+│
+├── docs/
+│ └── DEV_GUIDE.md # Panduan pengembang
+│
+├── README.md
+└── requirements.txt
+
+yaml
+Copy code
 
 ---
 
-## 🧩 Roadmap
-| Versi | Deskripsi | Status |
-|:------|:-----------|:--------|
-| 0.1 | CLI Prototype Awal | ✅ Selesai |
-| 0.2 | Penambahan kombinasi kartu dan efek | 🔄 Dalam Rencana |
-| 0.3 | Sistem skor & progresi | ⏳ Coming Soon |
-| 1.0 | Versi GUI (pygame/tkinter) | 🚧 Future Plan |
+## 🧩 Rencana Versi Selanjutnya (`v0.3`)
+- Implementasi **evaluasi tangan poker**
+- Penambahan sistem **scoring dan ronde**
+- Lawan komputer (*AI opponent basic*)
+- Efek visual teks (*animated CLI*)
 
 ---
 
-## 💡 Coding Vibe
-GREXCARD dikembangkan sepenuhnya dengan pendekatan **AI-assisted coding**, atau disebut juga *Coding Vibe Era Baru* — di mana pengembang berkolaborasi langsung dengan AI untuk:
-- Membangun struktur dan arsitektur kode dengan cepat  
-- Menyusun dokumentasi otomatis  
-- Mengoptimasi ide gameplay dan balancing kartu  
-
-> Filosofi proyek ini: *“Bukan tentang siapa yang mengetik lebih cepat, tapi siapa yang berpikir lebih kreatif.”*
+## 💡 Filosofi Pengembangan
+> GREXCARD bukan hanya proyek game, tapi juga eksperimen eksploratif tentang bagaimana **AI dan manusia dapat berkolaborasi membangun game dari nol**.  
+> Tujuan utamanya adalah menciptakan ekosistem *coding vibe* yang ringan, kreatif, dan dapat berkembang bersama komunitas.
 
 ---
 
-## 🛠️ Instalasi
-1. Clone repository ini:
+## ⚙️ Menjalankan Proyek
+1. Pastikan sudah menginstal Python 3.10+
+2. Clone repositori:
    ```bash
    git clone https://github.com/HyugaKjr/grexcard.git
+   cd grexcard
+Jalankan game:
+
+bash
+Copy code
+python src/grexcard.py
+🪪 Lisensi
+Proyek ini dilisensikan di bawah MIT License.
+
+👥 Kontribusi
+Kami sangat terbuka terhadap kontribusi dari siapa pun!
+Jika kamu punya ide, bug fix, atau tambahan fitur — silakan buat issue atau pull request.
+
+© 2025 GREXCARD Project — Made with 💻 + 🤖 (AI-assisted coding)
