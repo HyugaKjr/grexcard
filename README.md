@@ -1,3 +1,7 @@
+![Version](https://img.shields.io/badge/version-0.1-blue)
+![Python](https://img.shields.io/badge/python-3.10+-green)
+![AI-Coding](https://img.shields.io/badge/coding%20vibe-AI%20Enhanced-orange)
+
 # 🎴 GREXCARD
 
 **Versi:** 0.1  
@@ -46,3 +50,4 @@ GREXCARD dikembangkan sepenuhnya dengan pendekatan **AI-assisted coding**, atau 
 1. Clone repository ini:
    ```bash
    git clone https://github.com/HyugaKjr/grexcard.git
+
